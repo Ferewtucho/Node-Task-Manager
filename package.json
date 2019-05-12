@@ -1,0 +1,29 @@
+{
+  "name": "node-task-manager",
+  "version": "1.0.0",
+  "description": "A node task manager app that use mongodb to store data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferewtucho/Node-Task-Manager.git"
+  },
+  "author": "FT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ferewtucho/Node-Task-Manager/issues"
+  },
+  "homepage": "https://github.com/Ferewtucho/Node-Task-Manager#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.6",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
